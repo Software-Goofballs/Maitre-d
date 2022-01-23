@@ -5,6 +5,6 @@ module.exports = {
 		.setName('voluntell')
 		.setDescription('Assign a load balanced dinner planer'),
 	async execute(interaction) {	
-		return interaction.reply("Unimplemented");
+		return interaction.reply("ToDo: Check the last 2 meals and assign someone who was not those people");
 	},
 };

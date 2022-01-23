@@ -5,6 +5,6 @@ module.exports = {
 		.setName('cancel')
 		.setDescription('Cancel the next meal'),
 	async execute(interaction) {	
-		return interaction.reply("Unimplemented");
+		return interaction.reply("ToDo: Cancel Meal");
 	},
 };

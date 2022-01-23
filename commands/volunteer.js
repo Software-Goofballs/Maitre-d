@@ -5,6 +5,6 @@ module.exports = {
 		.setName('volunteer')
 		.setDescription('Volunteer yourself for dinner'),
 	async execute(interaction) {	
-		return interaction.reply("Unimplemented");
+		return interaction.reply(`ToDo: <@${interaction.user.id}> has volunteerer to be in charge of dinner`);
 	},
 };
