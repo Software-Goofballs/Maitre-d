@@ -1,0 +1,30 @@
+{
+  "name": "maitre-d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "git update-index --assume-unchanged config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Software-Goofballs/Maitre-d.git"
+  },
+  "keywords": [
+    "discord",
+    "Letterkenny"
+  ],
+  "author": "TheENGR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Software-Goofballs/Maitre-d/issues"
+  },
+  "homepage": "https://github.com/Software-Goofballs/Maitre-d#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.11.0",
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.6.0"
+  }
+}
