@@ -1,8 +1,16 @@
 [
-    {
-        "Owner": "",
-        "Main": "Pizza & Wings",
-        "Sides": [],
-        "Date": "2022-01-21"
-    }
+	{
+		"Owner": "",
+		"Main": "Pizza & Wings",
+		"Dishes": [
+			{
+				"Food": "Pizza"
+			},
+			{
+				"Food": "Wings",
+				"Owner": "test"
+			}
+		],
+		"Date": "2022-01-21"
+	}
 ]

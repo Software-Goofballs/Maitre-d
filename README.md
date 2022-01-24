@@ -2,7 +2,7 @@
 
 ## Commands
 
-### assign.js
+### assign-dish.js
 Use this to assign an item to a user
 
 #### Example
