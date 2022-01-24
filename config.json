@@ -1,5 +1,6 @@
 {
 	"clientId": "934941210022379581",
 	"guildId": "690400865307197520",
-	"token": "TOKEN_GOES_HERE"
+	"token": "TOKEN_GOES_HERE",
+	"dayOfPlay": 5
 }
