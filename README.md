@@ -18,7 +18,7 @@ Have the bot propose a meal
 ### plan.js
 Plan the meal description, can old be called by the meal owner or it will automatically volunteer you
 
-### status.js
+### menu.js
 Print out the current status of dinner and who is supposed to bring what
 
 ### update-bot.js
