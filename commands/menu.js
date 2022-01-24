@@ -8,12 +8,14 @@ module.exports = {
 	async execute(interaction) {
 		const menu = await getMenu();
 		let reply = `<@${menu.Owner}> has planned ${menu.Main} for dinner`;
-		if (menu.Dishes.length) {
-			reply += `\n\nDishes:\n` + menu.Dishes.map(dish => {
-				dishStr = dish.Food;
-				if (dish.Owner) {
-					dishStr += ` brought by <@${dish.Owner}>`
+
+		if (Object.keys(menu.Dishes).length) {
+			reply += `\n\nDishes:\n` + Object.keys(menu.Dishes).map(dish => {
+				dishStr = dish;
+				if (menu.Dishes[dish]) {
+					dishStr += ` brought by <@${menu.Dishes[dish]}>`
 				}
+				return dishStr;
 			}).join('\n')
 		}
 		return interaction.reply(reply);

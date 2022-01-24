@@ -6,7 +6,7 @@ const memory = path.resolve(__dirname, "memory.json");
 const loadMenuData = async () => {
 	try {
 		return JSON.parse(fs.readFileSync(memory));
-	} catch {
+	} catch (e) {
 		return [];
 	}
 }
@@ -29,7 +29,7 @@ module.exports = {
 			return {
 				Owner: "",
 				Main: "",
-				Dishes: [],
+				Dishes: {},
 				Date: nextDate
 			};
 		} else {
@@ -37,19 +37,14 @@ module.exports = {
 		}
 	},
 	async saveMenu(newMenu) {
-		let menu;
-		try {
-			menu = JSON.Parse(fs.readFileSync(path.resolve(__dirname, "memory.json")));
-		} catch {
-			menu = [];
-		}
+		let menu = await loadMenuData();
 		const lastMenu = menu[0];
 		
 		if (lastMenu == undefined || lastMenu.Date < newMenu.Date) {
-			menu.shift(newMenu);
+			menu.unshift(newMenu);
 		} else {
 			menu[0] = newMenu;
 		}
-		fs.writeFileSync(JSON.stringify(menu, undefined, 4), memory);
+		fs.writeFileSync(memory, JSON.stringify(menu, undefined, 4));
 	}
 }
