@@ -20,7 +20,7 @@ module.exports = {
 			return interaction.reply(`${dish} is already being brought by <@${menu.Dishes[dish]}>`)
 		}
 		
-		// Only the guy in charge can assign other people dishes
+		// Only the member in charge can assign other people dishes
 		if (menu.Owner == interaction.user.id || user == undefined || interaction.user.id == user.id) {
 			if (user == undefined && menu.Owner != interaction.user.id) {
 				user = interaction.user;
