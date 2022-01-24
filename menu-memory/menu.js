@@ -1,7 +1,7 @@
 const { dayOfPlay } = require("./../config.json");
 const fs = require('fs');
 const path = require('path');
-const memory = path.resolve(__dirname, "memory.json"));
+const memory = path.resolve(__dirname, "memory.json");
 
 const loadMenuData = async () => {
 	try {
