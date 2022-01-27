@@ -22,9 +22,6 @@ module.exports = {
 		
 		// Only the member in charge can assign other people dishes
 		if (menu.Owner == interaction.user.id || user == undefined || interaction.user.id == user.id) {
-			if (user == undefined && menu.Owner != interaction.user.id) {
-				user = interaction.user;
-			}
 			menu.Dishes[dish] = user == undefined ? '' : user.id
 			await saveMenu(menu);
 			return interaction.reply(`Added ${dish} to menu`)
