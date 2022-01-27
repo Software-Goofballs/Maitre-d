@@ -3,12 +3,21 @@
         "Owner": "697586275905044510",
         "Main": "Tacos!",
         "Dishes": {
-            "Peach Moonshine": "316664915358121984",
-            "Queso": "",
-            "chicken tAco": "697586275905044510",
-            "beef taco": "697586275905044510",
-            "pork taco": "697586275905044510",
-            "10 beef taco": ""
+            "Peach Moonshine": {
+                "Owner": "316664915358121984",
+                "Quantity": 0.5
+            },
+            "Queso": {},
+            "chicken taco": {
+                "Owner": "697586275905044510"
+            },
+            "beef taco": {
+                "Owner": "697586275905044510",
+                "Quantity": 10
+            },
+            "pork taco": {
+                "Owner": "697586275905044510"
+            }
         },
         "Date": "2022-01-28"
     }
