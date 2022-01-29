@@ -3,20 +3,29 @@
         "Owner": "697586275905044510",
         "Main": "Tacos!",
         "Dishes": {
+            "Queso": {},
+            "chicken tAco": {
+                "Quantity": 30,
+                "Owner": "697586275905044510"
+            },
+            "chips": {
+                "Owner": "697586275905044510",
+                "Quantity": 6
+            },
+            "Mtn Dew": {
+                "Quantity": 11.75
+            },
             "Peach Moonshine": {
                 "Owner": "316664915358121984",
-                "Quantity": 0.5
+                "Quantity": 0.4
             },
-            "Queso": {},
-            "chicken taco": {
-                "Owner": "697586275905044510"
-            },
-            "beef taco": {
+            "Hy-Vee cilantro": {
                 "Owner": "697586275905044510",
-                "Quantity": 10
+                "Quantity": 1
             },
-            "pork taco": {
-                "Owner": "697586275905044510"
+            "Unknown Dessert": {
+                "Owner": "400120760217239553",
+                "Quantity": 42
             }
         },
         "Date": "2022-01-28"

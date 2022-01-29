@@ -20,7 +20,7 @@ module.exports = {
 		
 		if (deleteDish) {
 			let newDish = menu.Dishes[dish];
-			if (menu.Owner == interaction.user.id || newDish.Owner == undefined || newDish.Owner == user.id) {
+			if (menu.Owner == interaction.user.id || newDish.Owner == undefined || (user != undefined && newDish.Owner == user.id)) {
 				delete menu.Dishes[dish];
 				await saveMenu(menu);
 				reply.push(`${dish} removed from menu`)
