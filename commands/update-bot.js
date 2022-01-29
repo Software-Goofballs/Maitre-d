@@ -5,6 +5,7 @@ module.exports = {
 		.setName('update-bot')
 		.setDescription('Update the bot after a PR'),
 	async execute(interaction) {	
-		return interaction.reply("ToDo: Kill the bot and let PM2 pull and restart it");
+		await interaction.reply("Bot updating, please wait for 15 seconds before next command");
+		await process.exit();
 	},
 };

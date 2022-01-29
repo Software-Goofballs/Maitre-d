@@ -12,8 +12,11 @@ module.exports = {
 		if (Object.keys(menu.Dishes).length) {
 			reply += `\n\nDishes:\n` + Object.keys(menu.Dishes).map(dish => {
 				dishStr = dish;
-				if (menu.Dishes[dish]) {
-					dishStr += ` brought by <@${menu.Dishes[dish]}>`
+				if (menu.Dishes[dish].Quantity) {
+					dishStr += ` (${menu.Dishes[dish].Quantity})`
+				}
+				if (menu.Dishes[dish].Owner) {
+					dishStr += ` brought by <@${menu.Dishes[dish].Owner}>`
 				}
 				return dishStr;
 			}).join('\n')
