@@ -6,7 +6,7 @@ module.exports = {
 		.setName('assign-dish')
 		.setDescription('assign a dish to a user')
 		.addStringOption(option => option.setName('dish').setDescription('Enter a dish').setRequired(true))
-		.addUserOption(option => option.setName('user').setDescription('Who is bringing the dish>'))
+		.addUserOption(option => option.setName('user').setDescription('Who is bringing the dish?'))
 		.addNumberOption(option => option.setName('quantity').setDescription('How many?'))
 		.addBooleanOption(option => option.setName('delete').setDescription('Delete this dish')),
 	async execute(interaction) {
