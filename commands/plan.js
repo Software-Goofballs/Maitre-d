@@ -14,7 +14,7 @@ module.exports = {
 			menu.Main = dish;
 			await saveMenu(menu);
 			return interaction.reply(`This week we will be serving ${dish}\nAll hail our reigning food overlord <@${menu.Owner}>`);
-		} else if (menu.Owner == undefined) {
+		} else if (menu.Owner == '') {
 			menu.Owner = interaction.user.id;
 			menu.Main = dish;
 			await saveMenu(menu);
