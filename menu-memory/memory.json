@@ -5,15 +5,20 @@
         "Dishes": {
             "lo-mein": {},
             "chicken teriyaki sticks": {},
-            "Sweet & Sour Chicken": {},
+            "Sweet & Sour Chicken": {
+                "Quantity": 2
+            },
             "crab rangoon": {
-                "Quantity": 65535
+                "Quantity": 18
             },
             "chicken with brocolli": {},
             "Those yellow cookies": {
                 "Quantity": 12
             },
-            "egg drop soup": {}
+            "egg drop soup": {},
+            "Pork w. Mix Vegetables": {},
+            "chicken lo mein": {},
+            "Sweet & Sour Chicken #2": {}
         },
         "Date": "2022-02-18"
     },
