@@ -1,5 +1,30 @@
 [
     {
+        "Owner": "316664915358121984",
+        "Main": "",
+        "Dishes": {
+            "Zak's Chili": {
+                "Owner": "316664915358121984"
+            },
+            "Macaroni": {
+                "Owner": "316664915358121984"
+            },
+            "Shredded Cheddar": {
+                "Owner": "316664915358121984"
+            },
+            "Dew": {
+                "Owner": "400120760217239553"
+            },
+            "Beer": {
+                "Owner": "400120760217239553"
+            },
+            "salsa": {
+                "Owner": "400120760217239553"
+            }
+        },
+        "Date": "2022-02-25"
+    },
+    {
         "Owner": "448266574453932032",
         "Main": "Chinese",
         "Dishes": {
@@ -17,8 +42,7 @@
             },
             "egg drop soup": {},
             "Pork w. Mix Vegetables": {},
-            "chicken lo mein": {},
-            "Sweet & Sour Chicken #2": {}
+            "chicken lo mein": {}
         },
         "Date": "2022-02-18"
     },
