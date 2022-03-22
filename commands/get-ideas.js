@@ -8,8 +8,9 @@ module.exports = {
 		.setDescription('Have the bot pitch some meal ideas'),
 	async execute(interaction) {
 		const meals = JSON.parse(fs.readFileSync(memory));
-		let randoIdea = meals[Math.floor(Math.random() * meals.length)]
+		const shuffled = meals.sort(() => 0.5 - Math.random());
+		let selected = shuffled.slice(0, 3);
 		
-		return interaction.reply(`How about ${randoIdea} for dinner?`);
+		return interaction.reply(`How about ${selected.join(" or ")} for dinner?`);
 	},
 };
