@@ -46,5 +46,11 @@ module.exports = {
 			menu[0] = newMenu;
 		}
 		fs.writeFileSync(memory, JSON.stringify(menu, undefined, 4));
+	},
+	async loadOldMenus() {
+		const menu = await loadMenuData();
+		var today = new Date();
+		today = today.toISOString().split('T')[0];
+		return menu.filter(x => x.Date < today);
 	}
 }
