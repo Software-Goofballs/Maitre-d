@@ -49,8 +49,9 @@ module.exports = {
 		fs.writeFileSync(memory, JSON.stringify(menu, undefined, 4));
 		
 		// Save off the Menu as ideas for the future
-		let oldIdeas = fs.readFileSync(ideas);
+		let oldIdeas = JSON.parse(fs.readFileSync(ideas));
 		if (newMenu.Main != "" && !oldIdeas.includes(newMenu.Main)) {
+			oldIdeas.push(newMenu.Main);
 			fs.writeFileSync(ideas, JSON.stringify(oldIdeas, undefined, 4));
 		}
 	},
