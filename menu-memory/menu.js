@@ -2,6 +2,7 @@ const { dayOfPlay } = require("./../config.json");
 const fs = require('fs');
 const path = require('path');
 const memory = path.resolve(__dirname, "memory.json");
+const ideas = path.resolve(__dirname, "meal-ideas.json");
 
 const loadMenuData = async () => {
 	try {
@@ -46,5 +47,17 @@ module.exports = {
 			menu[0] = newMenu;
 		}
 		fs.writeFileSync(memory, JSON.stringify(menu, undefined, 4));
+		
+		// Save off the Menu as ideas for the future
+		let oldIdeas = fs.readFileSync(ideas);
+		if (newMenu.Main != "" && !oldIdeas.includes(newMenu.Main)) {
+			fs.writeFileSync(ideas, JSON.stringify(oldIdeas, undefined, 4));
+		}
+	},
+	async loadOldMenus() {
+		const menu = await loadMenuData();
+		var today = new Date();
+		today = today.toISOString().split('T')[0];
+		return menu.filter(x => x.Date < today);
 	}
 }

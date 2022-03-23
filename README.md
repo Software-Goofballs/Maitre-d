@@ -19,6 +19,9 @@ Use this to assign an item to a user
 ### cancel.js
 Cancel the next week of DnD
 
+### add-dinner-idea.js
+Add new ideas for the bot to propose
+
 ### get-ideas.js
 Have the bot propose a meal
 
