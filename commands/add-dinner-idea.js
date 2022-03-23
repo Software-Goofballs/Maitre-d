@@ -1,4 +1,6 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
+const fs = require('fs');
+const path = require('path');
 const memory = path.resolve(__dirname, "./../menu-memory/meal-ideas.json");
 
 module.exports = {
