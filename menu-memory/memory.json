@@ -1,23 +1,37 @@
 [
     {
-        "Owner": "400120760217239553",
-        "Main": "Mexican",
-        "Dishes": {},
-        "Date": "2022-03-25"
+        "Owner": "316664915358121984",
+        "Main": "Wings",
+        "Dishes": {
+            "wings": {
+                "Owner": "316664915358121984",
+                "Quantity": 50
+            },
+            "air fryer": {
+                "Quantity": 1,
+                "Owner": "156947043523362816"
+            },
+            "Pepto Bismol": {}
+        },
+        "Date": "2022-03-24"
     },
     {
         "Owner": "400120760217239553",
-        "Main": "Din-Din",
+        "Main": "Pork Chops",
         "Dishes": {
             "birthday cake 🎂": {
                 "Owner": "400120760217239553"
+            },
+            "chops": {
+                "Owner": "316664915358121984",
+                "Quantity": 6
             }
         },
         "Date": "2022-03-03"
     },
     {
         "Owner": "316664915358121984",
-        "Main": "",
+        "Main": "Chili",
         "Dishes": {
             "Zak's Chili": {
                 "Owner": "316664915358121984"
