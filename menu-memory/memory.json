@@ -1,5 +1,15 @@
 [
     {
+        "Owner": "",
+        "Main": "",
+        "Dishes": {
+            "heavy whipping cream": {
+                "Owner": "316664915358121984"
+            }
+        },
+        "Date": "2022-03-25"
+    },
+    {
         "Owner": "316664915358121984",
         "Main": "Wings",
         "Dishes": {
@@ -11,7 +21,19 @@
                 "Quantity": 1,
                 "Owner": "156947043523362816"
             },
-            "Pepto Bismol": {}
+            "Pepto Bismol": {},
+            "carrots": {
+                "Owner": "316664915358121984"
+            },
+            "whole milk": {
+                "Owner": "316664915358121984"
+            },
+            "ice cream": {
+                "Owner": "316664915358121984"
+            },
+            "chips and French onion dip": {
+                "Owner": "316664915358121984"
+            }
         },
         "Date": "2022-03-24"
     },
