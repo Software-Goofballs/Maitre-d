@@ -1,15 +1,5 @@
 [
     {
-        "Owner": "",
-        "Main": "",
-        "Dishes": {
-            "heavy whipping cream": {
-                "Owner": "316664915358121984"
-            }
-        },
-        "Date": "2022-03-25"
-    },
-    {
         "Owner": "316664915358121984",
         "Main": "Wings",
         "Dishes": {
@@ -32,6 +22,9 @@
                 "Owner": "316664915358121984"
             },
             "chips and French onion dip": {
+                "Owner": "316664915358121984"
+            },
+			"heavy whipping cream": {
                 "Owner": "316664915358121984"
             }
         },
