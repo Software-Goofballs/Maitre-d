@@ -14,7 +14,7 @@ const loadMenuData = async () => {
 
 const getNextDayOfWeek = () => {
 	var resultDate = new Date();
-	resultDate.setDate(resultDate.getDate() + (6 + dayOfPlay - resultDate.getDay()) % 6);
+	resultDate.setUTCDate(resultDate.getUTCDate() + (6 + dayOfPlay - resultDate.getUTCDay()) % 6);
 	return resultDate.toISOString().split('T')[0];
 }
 
