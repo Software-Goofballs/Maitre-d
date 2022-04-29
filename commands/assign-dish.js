@@ -7,12 +7,12 @@ module.exports = {
 		.setDescription('assign a dish to a user')
 		.addStringOption(option => option.setName('dish').setDescription('Enter a dish').setRequired(true))
 		.addUserOption(option => option.setName('user').setDescription('Who is bringing the dish?'))
-		.addNumberOption(option => option.setName('quantity').setDescription('How many?'))
+		.addStringOption(option => option.setName('quantity').setDescription('How many?'))
 		.addBooleanOption(option => option.setName('delete').setDescription('Delete this dish')),
 	async execute(interaction) {
 		let user = interaction.options.getUser('user');
 		const dish = interaction.options.getString('dish');
-		const quantity = interaction.options.getNumber('quantity');
+		const quantity = interaction.options.getString('quantity');
 		const deleteDish = interaction.options.getBoolean('delete');
 		let menu = await getMenu();
 		
@@ -35,7 +35,7 @@ module.exports = {
 				reply.push(`Added ${dish} to the menu`)
 			}
 			
-			// Assigning user and it is self or done by owner
+			// Assigning user and if it is self or done by owner
 			if (user != undefined) {
 				if (menu.Owner == interaction.user.id || interaction.user.id == user.id) {
 					newDish.Owner = user.id;
