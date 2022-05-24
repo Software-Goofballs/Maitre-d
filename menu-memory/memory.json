@@ -1,5 +1,22 @@
 [
     {
+        "Owner": "316664915358121984",
+        "Main": "Smoked Pork Loin",
+        "Dishes": {
+            "smoked pork loin": {
+                "Owner": "316664915358121984",
+                "Quantity": "1"
+            },
+            "baked brocolli": {
+                "Owner": "316664915358121984"
+            },
+            "mashed potatoes": {
+                "Owner": "400120760217239553"
+            }
+        },
+        "Date": "2022-05-05"
+    },
+    {
         "Owner": "697586275905044510",
         "Main": "Indian",
         "Dishes": {
@@ -9,7 +26,22 @@
             "Butter Chicken": {
                 "Quantity": 2
             },
-            "chicken saag": {}
+            "chicken saag": {},
+            "Daal": {
+                "Quantity": "1"
+            },
+            "Biryani": {
+                "Quantity": "1"
+            },
+            "Kabab rolls": {
+                "Quantity": "1"
+            },
+            "samosa": {
+                "Quantity": "2"
+            },
+            "Kadai Chicken": {
+                "Quantity": "1"
+            }
         },
         "Date": "2022-04-29"
     },
