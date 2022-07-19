@@ -1,5 +1,16 @@
 [
     {
+        "Owner": "316664915358121984",
+        "Main": "Breakfast",
+        "Dishes": {
+            "Kodiak Panckaes": {},
+            "Eggs": {},
+            "Bacon": {},
+            "Mommy-mosas": {}
+        },
+        "Date": "2022-07-22"
+    },
+    {
         "Owner": "400120760217239553",
         "Main": "Taco Bell",
         "Dishes": {
