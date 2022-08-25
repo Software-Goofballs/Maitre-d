@@ -1,5 +1,24 @@
 [
     {
+        "Owner": "400120760217239553",
+        "Main": "Fastfood Potluck",
+        "Dishes": {
+            "Chicky Nuggs": {
+                "Owner": "697586275905044510",
+                "Quantity": "3-4 sets of 8"
+            },
+            "Arbys Chicken Sliders": {
+                "Owner": "400120760217239553",
+                "Quantity": "?"
+            },
+            "BK fries": {
+                "Owner": "697586275905044510",
+                "Quantity": "Large x4"
+            }
+        },
+        "Date": "2022-07-29"
+    },
+    {
         "Owner": "316664915358121984",
         "Main": "Breakfast",
         "Dishes": {
