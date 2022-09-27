@@ -1,6 +1,22 @@
 [
     {
         "Owner": "400120760217239553",
+        "Main": "Tacos",
+        "Dishes": {
+            "queso dip": {
+                "Quantity": "large"
+            },
+            "chicken tacos": {
+                "Quantity": "24"
+            },
+            "German Beer": {
+                "Owner": "697586275905044510"
+            }
+        },
+        "Date": "2022-08-26"
+    },
+    {
+        "Owner": "400120760217239553",
         "Main": "Fastfood Potluck",
         "Dishes": {
             "Chicky Nuggs": {
