@@ -1,5 +1,36 @@
 [
     {
+        "Owner": "",
+        "Main": "",
+        "Dishes": {
+            "Chicken Lo Mein (Megan)": {
+                "Quantity": "1"
+            },
+            "egg rolls": {
+                "Quantity": "1"
+            },
+            "steamed dumplings": {
+                "Quantity": "1"
+            },
+            "Vegetable Lo Mein": {},
+            "Sweet and sour chicken": {},
+            "teriyaki sticks": {},
+            "orange chicken": {},
+            "general tso's chicken": {}
+        },
+        "Date": "2023-02-10"
+    },
+    {
+        "Owner": "400120760217239553",
+        "Main": "Ham",
+        "Dishes": {
+            "Mashed Potatoes": {
+                "Owner": "316664915358121984"
+            }
+        },
+        "Date": "2023-01-20"
+    },
+    {
         "Owner": "400120760217239553",
         "Main": "Rasing Cane’s",
         "Dishes": {
