@@ -11,21 +11,21 @@
                 "Owner": "400120760217239553",
                 "Quantity": "yes"
             },
-            "TBell spicy potato taco": {
-                "Quantity": "1"
-            },
-            "Dots": {
-                "Owner": "697586275905044510",
-                "Quantity": "Family Size"
-            },
             "Onion Rings": {
                 "Owner": "400120760217239553",
-                "Quantity": "unknown"
-            }
+                "Quantity": "plenty"
+            },
+            "cheesy bean and rice burrito": {
+                "Quantity": "4"
+            },
+            "spicy potato soft taco": {
+                "Quantity": "4"
+            },
+            "Cravings meal with crunchwrap supreme, spicy potato taco, and cinnamon twists.": {}
         },
         "Date": "2023-04-21"
     },
-	{
+    {
         "Owner": "",
         "Main": "",
         "Dishes": {
