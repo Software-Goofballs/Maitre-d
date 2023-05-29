@@ -5,6 +5,21 @@
         "Dishes": {
             "Garlic Na’an": {
                 "Quantity": "all of it"
+            },
+            "Daal Makhani": {
+                "Quantity": "1"
+            },
+            "Butter Chicken": {
+                "Quantity": "1"
+            },
+            "Samosas (2)": {
+                "Quantity": "2"
+            },
+            "Malai Kofta": {
+                "Quantity": "1"
+            },
+            "Saag": {
+                "Quantity": "1"
             }
         },
         "Date": "2023-05-19"
