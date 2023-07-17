@@ -1,6 +1,22 @@
 [
     {
         "Owner": "400120760217239553",
+        "Main": "Grilling",
+        "Dishes": {
+            "Veggies": {
+                "Owner": "462399340183289856"
+            },
+            "Potatoes": {
+                "Owner": "400120760217239553"
+            },
+            "Meat": {
+                "Owner": "697586275905044510"
+            }
+        },
+        "Date": "2023-07-14"
+    },
+    {
+        "Owner": "400120760217239553",
         "Main": "Indian",
         "Dishes": {
             "Garlic Na’an": {
