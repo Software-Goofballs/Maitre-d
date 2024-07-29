@@ -1,5 +1,42 @@
 [
     {
+        "Owner": "400120760217239553",
+        "Main": "Raising Cain's",
+        "Dishes": {},
+        "Date": "2024-07-26"
+    },
+    {
+        "Owner": "400120760217239553",
+        "Main": "Brats",
+        "Dishes": {
+            "cokeslaw": {
+                "Owner": "270081789920280578"
+            },
+            "chips": {
+                "Owner": "316664915358121984"
+            },
+            "cranberry walnut bread": {
+                "Owner": "697586275905044510"
+            },
+            "brats": {
+                "Owner": "697586275905044510"
+            },
+            "juices": {
+                "Owner": "325759355620425729"
+            },
+            "buns": {
+                "Owner": "400120760217239553"
+            },
+            "po-tat-oes": {
+                "Owner": "400120760217239553"
+            },
+            "ice cream drumsticks": {
+                "Owner": "400120760217239553"
+            }
+        },
+        "Date": "2024-07-05"
+    },
+    {
         "Owner": "",
         "Main": "",
         "Dishes": {
